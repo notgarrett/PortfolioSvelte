@@ -1,7 +1,7 @@
 <script lang='ts'>
 	import '../app.postcss';
-
-	let x: number = 4;
+	import Navbar from './Navbar.svelte';
 </script>
 
+<Navbar />
 <slot />
