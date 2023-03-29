@@ -1,37 +1,33 @@
 <!-- Nav Start -->
 <nav>
-	<div>
-		<h1>
-			<a>Test1</a>
-		</h1>
-	</div>
-	<div>
-		<h1>
-			<a href="#">
-				<span> Home </span>
-			</a>
-		</h1>
-	</div>
-	<div>
-		<h1>
-			<a href="#">
-				<span> Projects </span>
-			</a>
-		</h1>
-	</div>
-	<div>
-		<h1>
-			<a href="#">
-				<span> Blog </span>
-			</a>
-		</h1>
-	</div>
-	<div>
-		<h1>
-			<a href="#">
-				<span> Contact </span>
-			</a>
-		</h1>
-	</div>
+	<ul class='flex justify-center'>
+		<li class='mr-3'>
+			<a
+				class='py-2 px-4'
+				href='#'>Home</a>
+		</li>
+		<li class='mr-3'>
+			<a
+				class='py-2 px-4'
+				href='#'>Projects</a>
+		</li>
+		<li class='mr-3'>
+			<a
+				class='py-2 px-4'
+				href='#'>Blog</a>
+		</li>
+		<li class='mr-3'>
+			<a
+				class='py-2 px-4'
+				href='#'>Contact</a>
+		</li>
+	</ul>
 </nav>
 <!-- end nav -->
+
+<style lang="postcss">
+    a{
+        color: theme(colors.orange.500);
+				display: inline-block;
+    }
+</style>
